@@ -3,34 +3,97 @@
 <head> 
     <title>Career Page Tiny Horse</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-
-    <!-- <link rel="stylesheet" type="text/css" href="style7.css"> -->
+    <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
+    <!-- make navbar clear until it gets down to a certain point then backgeround black -->
+    <!-- make navbar links hoverable -->
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <div class="container-fluid">
-          <a class="navbar-brand" href="#">Navbar</a>
+            <!-- tiny horse needs padding or a gutter to the left of it -->
+          <a class="navbar-brand" href="#">Tiny Horse</a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
+          <!-- below div needs to be floated to the right side of the navbar -->
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
               <li class="nav-item">
                 <a class="nav-link active" aria-current="page" href="#">Home</a>
               </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Link</a>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Work
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
               </li>
               <li class="nav-item">
-                <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+                <a class="nav-link" href="#">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Careers</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Interns</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Contact</a>
               </li>
             </ul>
-            <form class="d-flex">
+            <!-- <form class="d-flex">
               <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
               <button class="btn btn-outline-success" type="submit">Search</button>
-            </form>
+            </form> -->
           </div>
         </div>
       </nav>
+                    <!-- JUMBOTRON !!! -->
+      <div class="container jumbo p-5">
+        <div class="container-fluid py-5">
+            <div class="jumbotron jumbotron-fluid">
+                <div class="container">
+                    <h1 class="display-10">We're people who like people.</h1>
+                </div>
+            </div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col" style="text-align:left">
+            <h1>Tiny Horse is always on the lookout for innovative and creative minds who have a passion for entertainment and digital, and a curiosity and drive to discover what’s next.
+            </h1>
+          </div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col">
+            <!-- contain image-->
+          </div>
+          <div class="col">
+            <!-- contain card-->
+          </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <!-- contain image-->
+              </div>
+          <div class="col">
+            <!-- contain card -->
+          </div>
+        </div>
+      </div>
+
+      <!-- container with a large image on left, small card on the right +1 with button -->
+      <!-- containter with a large image on the right, smaller card on left  -->
+      <!-- cards flex below when page is made smaller -->
+      <!-- career openings grid(block) on column per line , includes hoverable button -->
+      <!-- back to the top button that scrolls with page -->
+      <!-- large footer -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 </body>
+
