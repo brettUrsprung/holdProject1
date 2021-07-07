@@ -29,7 +29,6 @@ ul li a{
   color: black;
 }
 
-
 /* still need to fix the underline on the Home link */
 ul li:hover {
   border-bottom: 2px solid red;
