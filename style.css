@@ -1,21 +1,38 @@
 .jumbo{
     /* change image, stick it to the top */
     /* remove gutters/padding */
-    /* put a bottom border on jumbotron, try to match graded color */
+    /* put a bottom border on jumbotron, add gradiant color */
+    
     background-image: url(https://tinyhorse.com/wp-content/uploads/2019/12/Careers-header.jpg);
     background-size: cover;
     height: 100%;
     min-height: 700px;
+    margin: 0rem;
+    margin-right:0rem;
+    margin-bottom: 100px;
 }
+
+    
+
 .col {
     min-height: 150px;
     background-color: white;
     padding: 4rem 5rem;
 }
 .jumbo h1 {
-    color: white;
+    color:white;
     font-size: 3rem;
 }
-h1 {
-    
+
+ul li a{
+  text-decoration:none;
+  color: black;
+}
+
+ul li:hover {
+  border-bottom: 2px solid red;
+}
+
+.active {
+    border-bottom: 2px solid red;
 }
